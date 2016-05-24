@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE1A2E1C1C4D0C1100E09AF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE1A2E1B1C4D0C1100E09AF4 /* main.cpp */; };
+		EE1A2E231C4D0C9600E09AF4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1A2E221C4D0C9600E09AF4 /* OpenGL.framework */; };
+		EE1A2E251C4D0C9C00E09AF4 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1A2E241C4D0C9C00E09AF4 /* GLUT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EE1A2E161C4D0C1100E09AF4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EE1A2E181C4D0C1100E09AF4 /* PendulumWave */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PendulumWave; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1A2E1B1C4D0C1100E09AF4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../PendulumWave/main.cpp; sourceTree = "<group>"; };
+		EE1A2E221C4D0C9600E09AF4 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		EE1A2E241C4D0C9C00E09AF4 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		EEC97B591C5513A4002504BC /* Pendulum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Pendulum.h; path = ../PendulumWave/Pendulum.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE1A2E151C4D0C1100E09AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1A2E251C4D0C9C00E09AF4 /* GLUT.framework in Frameworks */,
+				EE1A2E231C4D0C9600E09AF4 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE1A2E0F1C4D0C1100E09AF4 = {
+			isa = PBXGroup;
+			children = (
+				EE1A2E241C4D0C9C00E09AF4 /* GLUT.framework */,
+				EE1A2E221C4D0C9600E09AF4 /* OpenGL.framework */,
+				EE1A2E1A1C4D0C1100E09AF4 /* PendulumWave */,
+				EE1A2E191C4D0C1100E09AF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE1A2E191C4D0C1100E09AF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE1A2E181C4D0C1100E09AF4 /* PendulumWave */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE1A2E1A1C4D0C1100E09AF4 /* PendulumWave */ = {
+			isa = PBXGroup;
+			children = (
+				EE1A2E1B1C4D0C1100E09AF4 /* main.cpp */,
+				EEC97B591C5513A4002504BC /* Pendulum.h */,
+			);
+			name = PendulumWave;
+			path = SystemDevelopment;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE1A2E171C4D0C1100E09AF4 /* PendulumWave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1A2E1F1C4D0C1100E09AF4 /* Build configuration list for PBXNativeTarget "PendulumWave" */;
+			buildPhases = (
+				EE1A2E141C4D0C1100E09AF4 /* Sources */,
+				EE1A2E151C4D0C1100E09AF4 /* Frameworks */,
+				EE1A2E161C4D0C1100E09AF4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PendulumWave;
+			productName = SystemDevelopment;
+			productReference = EE1A2E181C4D0C1100E09AF4 /* PendulumWave */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE1A2E101C4D0C1100E09AF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = KentaYamagishi;
+				TargetAttributes = {
+					EE1A2E171C4D0C1100E09AF4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EE1A2E131C4D0C1100E09AF4 /* Build configuration list for PBXProject "PendulumWave" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE1A2E0F1C4D0C1100E09AF4;
+			productRefGroup = EE1A2E191C4D0C1100E09AF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE1A2E171C4D0C1100E09AF4 /* PendulumWave */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE1A2E141C4D0C1100E09AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1A2E1C1C4D0C1100E09AF4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE1A2E1D1C4D0C1100E09AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EE1A2E1E1C4D0C1100E09AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EE1A2E201C4D0C1100E09AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = Users/KentaYamagishi/usr/local/include/boost;
+				PRODUCT_NAME = PendulumWave;
+			};
+			name = Debug;
+		};
+		EE1A2E211C4D0C1100E09AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = Users/KentaYamagishi/usr/local/include/boost;
+				PRODUCT_NAME = PendulumWave;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE1A2E131C4D0C1100E09AF4 /* Build configuration list for PBXProject "PendulumWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1A2E1D1C4D0C1100E09AF4 /* Debug */,
+				EE1A2E1E1C4D0C1100E09AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1A2E1F1C4D0C1100E09AF4 /* Build configuration list for PBXNativeTarget "PendulumWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1A2E201C4D0C1100E09AF4 /* Debug */,
+				EE1A2E211C4D0C1100E09AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE1A2E101C4D0C1100E09AF4 /* Project object */;
+}
